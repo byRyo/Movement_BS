@@ -4,7 +4,6 @@
 //    CreateMoveCommand: 0x8e3778 
 // Ryo
 // this script make movement your brawler goes to the left x: -5 every 200ms
-"use strict";
 const Base = Module.findBaseAdress("libg.so")
 const Offsets = {
     GetBattleState: 0x789034,
